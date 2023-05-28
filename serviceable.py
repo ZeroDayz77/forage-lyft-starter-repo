@@ -1,8 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class ServiceableInterface:
-    def __init__(self):
+class ServiceableInterface(ABC):
     
     @abstractmethod
     def need_service(self):
